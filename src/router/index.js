@@ -25,7 +25,9 @@ const routes = [
 ];
 
 const router = new VueRouter({
-  routes,
+  mode: 'history',
+  base: process.env.Base_URL,
+  routes
 });
 
 export default router;

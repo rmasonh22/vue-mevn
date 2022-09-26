@@ -1,5 +1,11 @@
 <template>
-  <p>this is list component</p>
+<div class="row justify-content-center">
+    <div class="col-md-6">
+      <!-- Content goes here-->
+       <p>this is list component</p>
+    </div>
+  </div>
+ 
 </template>
 
 <script>
